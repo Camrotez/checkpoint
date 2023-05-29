@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: whitesmoke;
+}
+body aside {
+  height: 100%;
+  width: 15%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+body aside .logo {
+  height: 5rem;
+  width: 5rem;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+main .box1 {
+  background-color: grey;
+  width: 80%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+main .box1 .big {
+  margin-bottom: 15rem;
+  font-size: 30px;
+}
+main .box1 .dis {
+  margin-top: 15rem;
+  font-size: 30px;
+}
+main .box2 {
+  background-color: grey;
+  width: 80%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .box2 a {
+  font-size: 30px;
+  color: black;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  body aside {
+    width: 100%;
+    height: 10%;
+  }
+  body aside .logo {
+    margin-bottom: 15%;
+  }
+  main {
+    width: 100%;
+  }
+  main .box1 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
